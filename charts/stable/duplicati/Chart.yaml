@@ -6,7 +6,7 @@ name: duplicati
 version: 5.4.2
 keywords:
   - duplicati
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/duplicati
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/duplicati
 icon: https://avatars.githubusercontent.com/u/8270231?s=200&v=4
 sources:
   - https://hub.docker.com/r/linuxserver/duplicati/
@@ -16,7 +16,7 @@ maintainers:
     email: simon.caron@protonmail.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

@@ -10,6 +10,10 @@ on:
     paths:
       - "charts/**"
 
+env:
+  HELM_VERSION: 3.9.2
+  YQ_VERSION: 4.16.2
+
 jobs:
   release:
     runs-on: ubuntu-20.04
@@ -31,10 +35,10 @@ jobs:
         uses: yokawasa/action-setup-kube-tools@v0.8.2
         with:
           setup-tools: |
-            helmv3
+            helm
             yq
-          helm: "3.8.0"
-          yq: "4.16.2"
+          helm: "${{ env.HELM_VERSION }}"
+          yq: "${{ env.YQ_VERSION }}"
 
       - name: Install helm-docs
         run: |
@@ -64,9 +68,9 @@ jobs:
         with:
           file_pattern: charts/**/
           commit_message: "chore: Auto-update chart README [skip ci]"
-          commit_user_name: k8s-at-home[bot]
-          commit_user_email: k8s-at-home[bot]@users.noreply.github.com
-          commit_author: k8s-at-home[bot] <k8s-at-home[bot]@users.noreply.github.com>
+          commit_user_name: geek-cookbook[bot]
+          commit_user_email: geek-cookbook[bot]@users.noreply.github.com
+          commit_author: geek-cookbook[bot] <geek-cookbook[bot]@users.noreply.github.com>
 
       - name: Save commit hash
         id: save-commit-hash
@@ -86,14 +90,14 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "k8s-at-home[bot]"
-          git config user.email "k8s-at-home[bot]@users.noreply.github.com"
+          git config user.name "geek-cookbook[bot]"
+          git config user.email "geek-cookbook[bot]@users.noreply.github.com"
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.0
         with:
           charts_dir: charts/*
-          charts_repo_url: https://k8s-at-home.com/charts/
+          charts_repo_url: https://geek-cookbook.com/charts/
         env:
           CR_TOKEN: "${{ steps.generate-token.outputs.token }}"
           CR_SKIP_EXISTING: "true"
@@ -119,9 +123,13 @@ jobs:
           fetch-depth: 0
 
       - name: Install yq
-        uses: chrisdickinson/setup-yq@latest
+        uses: yokawasa/action-setup-kube-tools@v0.8.2
         with:
-          yq-version: v4.9.3
+          setup-tools: |
+            helm
+            yq
+          helm: "${{ env.HELM_VERSION }}"
+          yq: "${{ env.YQ_VERSION }}"
 
       - name: Run script
         run: |
@@ -132,7 +140,7 @@ jobs:
         with:
           push_options: --force
           commit_message: Auto-generate chart summary [no ci]
-          commit_user_name: k8s-at-home[bot]
-          commit_user_email: k8s-at-home[bot]@users.noreply.github.com
-          commit_author: k8s-at-home[bot] <k8s-at-home[bot]@users.noreply.github.com>
+          commit_user_name: geek-cookbook[bot]
+          commit_user_email: geek-cookbook[bot]@users.noreply.github.com
+          commit_author: geek-cookbook[bot] <geek-cookbook[bot]@users.noreply.github.com>
           file_pattern: charts/README.md

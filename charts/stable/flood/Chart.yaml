@@ -10,7 +10,7 @@ keywords:
   - rtorrent
   - qbittorrent
   - transmission
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/flood
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/flood
 icon: https://raw.githubusercontent.com/jesec/flood/master/flood.svg
 sources:
   - https://github.com/jesec/flood
@@ -20,7 +20,7 @@ maintainers:
     email: jeff@billimek.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

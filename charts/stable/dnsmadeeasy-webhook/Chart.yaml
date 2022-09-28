@@ -8,17 +8,17 @@ keywords:
   - cert-manager
   - dnsmadeeasy
   - letsencrypt
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/dnsmadeeasy-webhook
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/dnsmadeeasy-webhook
 icon: https://pbs.twimg.com/profile_images/1759911243/dnsmeavatar_400x400.png
 sources:
-  - https://github.com/k8s-at-home/dnsmadeeasy-webhook
+  - https://github.com/geek-cookbook/dnsmadeeasy-webhook
   - https://cert-manager.io
 maintainers:
   - name: angelnu
     email: git@angelnu.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
   - name: cert-manager
     repository: https://charts.jetstack.io

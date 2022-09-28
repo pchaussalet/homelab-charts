@@ -7,7 +7,7 @@ version: 5.3.2
 keywords:
   - joplin
   - notes
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/jopplin-server
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/jopplin-server
 icon: https://raw.githubusercontent.com/laurent22/joplin/master/Assets/LinuxIcons/256x256.png?raw=true
 sources:
   - https://github.com/laurent22/joplin/tree/dev/packages/server
@@ -15,10 +15,10 @@ sources:
   - https://hub.docker.com/r/joplin/server
 maintainers:
   - name: auricom
-    email: k8s-at-home@xpander.eml.cc
+    email: geek-cookbook@xpander.eml.cc
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
   - name: postgresql
     version: 11.6.12

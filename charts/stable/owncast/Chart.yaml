@@ -10,7 +10,7 @@ keywords:
   - stream
   - open source
   - chat
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/owncast
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/owncast
 icon: https://owncast.online/images/owncast-logo-1000x1000.png
 sources:
   - https://owncast.online/
@@ -20,7 +20,7 @@ maintainers:
     email: dennis.zhang.nrg@gmail.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

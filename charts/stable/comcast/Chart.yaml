@@ -8,17 +8,17 @@ keywords:
   - comcast
   - influxdb
   - xfinity
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/comcast
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/comcast
 icon: https://i.imgur.com/iR1dUpp.png
 sources:
   - https://github.com/billimek/comcastUsage-for-influxdb
-  - https://github.com/k8s-at-home/charts
+  - https://github.com/geek-cookbook/charts
 maintainers:
   - name: billimek
     email: jeff@billimek.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

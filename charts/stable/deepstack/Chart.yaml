@@ -8,7 +8,7 @@ kubeVersion: ">=1.16.0-0"
 keywords:
   - deepstack
   - ai
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/deepstack
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/deepstack
 icon: https://deepquest.sfo2.digitaloceanspaces.com/deepstackcc/static/img/deepstacklogo.png
 sources:
   - https://deepstack.cc
@@ -19,7 +19,7 @@ maintainers:
     email: crutonjohn@pm.me
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

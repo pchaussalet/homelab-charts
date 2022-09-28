@@ -7,7 +7,7 @@ version: 5.1.2
 kubeVersion: ">=1.16.0-0"
 keywords:
   - grocy
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/mealie
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/mealie
 icon: https://raw.githubusercontent.com/hay-kot/mealie/gh-pages/assets/img/favicon.png
 sources:
   - https://github.com/hay-kot/mealie
@@ -18,7 +18,7 @@ maintainers:
     email: jonathan@jonnobrow.co.uk
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

@@ -12,7 +12,7 @@ keywords:
   - pulse
   - stream
   - retroarch
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/games-on-whales
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/games-on-whales
 icon: https://github.com/games-on-whales/gow/raw/master/docs/assets/img/gow-logo.png
 sources:
   - https://github.com/games-on-whales/gow
@@ -23,7 +23,7 @@ maintainers:
     email: beltramo.ale@gmail.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

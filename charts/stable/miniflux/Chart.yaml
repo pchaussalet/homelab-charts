@@ -9,7 +9,7 @@ keywords:
   - miniflux
   - rss
   - news
-home: https://github.com/k8s-at-home/charts/tree/master/charts/miniflux
+home: https://github.com/geek-cookbook/charts/tree/master/charts/miniflux
 icon: https://raw.githubusercontent.com/miniflux/logo/master/icon.svg
 sources:
   - https://github.com/miniflux/v2
@@ -18,7 +18,7 @@ maintainers:
     email: trly@users.noreply.github.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
   - name: postgresql
     version: 11.6.12

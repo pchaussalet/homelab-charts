@@ -10,17 +10,17 @@ keywords:
   - hastebin
   - haste-server
   - pastebin
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/haste
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/haste
 icon: https://raw.githubusercontent.com/nicholaswilde/helm-charts/main/images/haste.png
 sources:
   - https://github.com/seejohnrun/haste-server
-  - https://github.com/k8s-at-home/container-images
+  - https://github.com/geek-cookbook/container-images
 maintainers:
   - name: rwaltr
     email: rwalt@pm.me
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

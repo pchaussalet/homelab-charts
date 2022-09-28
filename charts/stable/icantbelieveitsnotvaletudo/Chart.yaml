@@ -10,11 +10,11 @@ keywords:
   - MQTT
   - valetudo
   - iot
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/icantbelieveitsnotvaletudo
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/icantbelieveitsnotvaletudo
 icon: https://raw.githubusercontent.com/Hypfer/Valetudo/master/assets/logo/valetudo_logo_small.svg
 sources:
   - https://github.com/Hypfer/ICantBelieveItsNotValetudo
-  - https://github.com/k8s-at-home/charts/tree/master/charts/icantbelieveitsnotvaletudo
+  - https://github.com/geek-cookbook/charts/tree/master/charts/icantbelieveitsnotvaletudo
 maintainers:
   - name: ishioni
     email: helm@movishell.pl
@@ -22,7 +22,7 @@ maintainers:
     email: me@bjw-s.dev
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

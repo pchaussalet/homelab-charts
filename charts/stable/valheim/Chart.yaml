@@ -7,7 +7,7 @@ version: 4.4.2
 kubeVersion: ">=1.16.0-0"
 keywords:
   - valheim
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/valheim
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/valheim
 icon: https://raw.githubusercontent.com/lloesche/valheim-server-docker/main/misc/Logo_valheim.png
 sources:
   - https://github.com/lloesche/valheim-server-docker
@@ -17,7 +17,7 @@ maintainers:
     email: owner@russellhall.co.uk
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

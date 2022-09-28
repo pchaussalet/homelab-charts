@@ -8,18 +8,18 @@ kubeVersion: ">=1.16.0-0"
 keywords:
   - librespeed
   - speedtest
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/librespeed
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/librespeed
 icon: https://github.com/librespeed/speedtest/blob/master/.logo/icon_huge.png?raw=true
 sources:
   - https://github.com/librespeed/speedtest
   - https://hub.docker.com/r/linuxserver/librespeed
-  - https://github.com/k8s-at-home/charts/tree/master/charts/librespeed
+  - https://github.com/geek-cookbook/charts/tree/master/charts/librespeed
 maintainers:
   - name: mcmarkj
     email: mark@markmcw.uk
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

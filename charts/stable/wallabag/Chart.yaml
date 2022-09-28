@@ -7,7 +7,7 @@ version: 7.1.2
 kubeVersion: ">=1.16.0-0"
 keywords:
   - wallabag
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/wallabag
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/wallabag
 icon: "https://raw.githubusercontent.com/wallabag/logo/master/app-android/logo-app-android-icon-bg-white-512.png"
 sources:
   - https://github.com/wallabag/docker
@@ -17,7 +17,7 @@ maintainers:
     url: https://patricol.co/
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
   - name: redis
     version: 16.13.1

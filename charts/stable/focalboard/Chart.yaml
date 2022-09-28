@@ -9,7 +9,7 @@ keywords:
   - focalboard
   - kanban
   - project management
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/focalboard
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/focalboard
 icon: https://github.com/mattermost/focalboard/raw/main/webapp/static/favicon.svg
 sources:
   - https://www.focalboard.com/
@@ -20,7 +20,7 @@ maintainers:
     email: dennis.zhang.nrg@gmail.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

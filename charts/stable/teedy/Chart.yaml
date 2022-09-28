@@ -9,17 +9,17 @@ keywords:
   - teedy
   - documents
   - management
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/teedy
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/teedy
 icon: https://raw.githubusercontent.com/sismics/docs/v1.9/docs-web/src/main/resources/image/logo.png
 sources:
   - https://github.com/sismics/docs
-  - https://github.com/k8s-at-home/charts/tree/master/charts/teedy
+  - https://github.com/geek-cookbook/charts/tree/master/charts/teedy
 maintainers:
   - name: carpenike
     email: ryan@ryanholt.net
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
   - name: postgresql
     version: 11.6.12

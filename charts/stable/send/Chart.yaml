@@ -7,7 +7,7 @@ version: 1.2.2
 kubeVersion: ">=1.16.0-0"
 keywords:
   - send
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/send
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/send
 icon: https://gitlab.com/timvisee/send/-/raw/master/assets/icon.svg
 sources:
   - https://gitlab.com/timvisee/send
@@ -16,7 +16,7 @@ maintainers:
     email: gerald@geraldwu.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
   - name: redis
     repository: https://charts.bitnami.com/bitnami

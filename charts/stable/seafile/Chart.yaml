@@ -7,7 +7,7 @@ version: 3.1.2
 kubeVersion: ">=1.16.0-0"
 keywords:
   - seafile
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/seafile
 icon: https://manual.seafile.com/media/seafile-transparent-1024.png
 sources:
   - https://github.com/haiwen/seafile-docker
@@ -16,7 +16,7 @@ maintainers:
     email: 1985132+phybros@users.noreply.github.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
   - name: mariadb
     version: 11.0.14

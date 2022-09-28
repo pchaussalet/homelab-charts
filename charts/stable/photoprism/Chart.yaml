@@ -10,7 +10,7 @@ keywords:
   - photoprism
   - pictures
   - sharing
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/photoprism
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/photoprism
 icon: https://demo.photoprism.org/static/img/logo-avatar.svg
 sources:
   - https://github.com/photoprism/photoprism
@@ -20,7 +20,7 @@ maintainers:
     email: jeff@billimek.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
   - name: mariadb
     version: 11.0.14

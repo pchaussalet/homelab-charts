@@ -7,7 +7,7 @@ version: 1.2.2
 kubeVersion: ">=1.16.0-0"
 keywords:
   - nightscout
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/nightscout
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/nightscout
 icon: https://github.com/nightscout/cgm-remote-monitor/blob/master/static/images/favicon-96x96.png
 sources:
   - https://github.com/nightscout/nightscout-docker
@@ -16,7 +16,7 @@ maintainers:
     email: nchilder@redhat.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

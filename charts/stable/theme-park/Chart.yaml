@@ -11,13 +11,13 @@ home: https://github.com/GilbN/theme.park
 icon: https://github.com/GilbN/theme.park/blob/master/resources/landing-page/assets/img/themepark-logo.png
 sources:
   - https://github.com/GilbN/theme.park
-  - https://github.com/k8s-at-home/container-images/tree/main/apps/theme-park
+  - https://github.com/geek-cookbook/container-images/tree/main/apps/theme-park
 maintainers:
   - name: Truxnell
     email: nat@natallan.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

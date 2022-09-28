@@ -9,7 +9,7 @@ keywords:
   - blocky
   - adblock
   - dns
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/blocky
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/blocky
 icon: https://github.com/0xERR0R/blocky/raw/master/docs/blocky.svg?sanitize=true
 sources:
   - https://github.com/0xERR0R/blocky
@@ -18,7 +18,7 @@ maintainers:
     email: jeff@billimek.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
   - name: redis
     repository: https://charts.bitnami.com/bitnami

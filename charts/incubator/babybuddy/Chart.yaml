@@ -8,7 +8,7 @@ kubeVersion: ">=1.16.0-0"
 keywords:
   - babybuddy
   - baby
-home: https://github.com/k8s-at-home/charts/tree/master/charts/incubator/babybuddy
+home: https://github.com/geek-cookbook/charts/tree/master/charts/incubator/babybuddy
 icon: https://github.com/babybuddy/babybyddy/blob/master/babybuddy/static_src/logo/icon.png?raw=true
 sources:
   - https://github.com/babybuddy/babybuddy
@@ -18,7 +18,7 @@ maintainers:
     email: brianporeilly@gmail.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-

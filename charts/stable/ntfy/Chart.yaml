@@ -8,7 +8,7 @@ kubeVersion: ">=1.16.0-0"
 keywords:
   - ntfy
   - notification
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/ntfy
+home: https://github.com/geek-cookbook/charts/tree/master/charts/stable/ntfy
 icon: https://raw.githubusercontent.com/binwiederhier/ntfy/main/web/public/static/img/ntfy.png
 sources:
   - https://github.com/binwiederhier/ntfy
@@ -17,7 +17,7 @@ maintainers:
     email: gerald@geraldwu.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
+    repository: https://library-charts.geek-cookbook.com
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-
