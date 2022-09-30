@@ -14,7 +14,7 @@
 [Funky Penguin's Geek Cookbook][cookbookurl]
  presents...
 
-<h3 align='center'>Helm Charts: Simple, Secure, Supported</h3>
+## Helm Charts: Simple, Secure, Supported
 
 [![Discord](https://img.shields.io/discord/396055506072109067?label=Discord&logo=discord&style=for-the-badge)][discordurl]
 [![Forums](https://img.shields.io/discourse/topics?label=Forums&logo=discourse&server=https%3A%2F%2Fforum.funkypenguin.co.nz&style=for-the-badge)][discourseurl]
@@ -22,14 +22,12 @@
 [![Mastodon](https://img.shields.io/mastodon/follow/108734728309100184?domain=https%3A%2F%2Fso.fnky.nz&label=Toot%21&logo=mastodon&style=for-the-badge)][mastodonurl]
 [![Sponsor](https://img.shields.io/github/sponsors/funkypenguin?label=Sponsors%20%E2%9D%A4%EF%B8%8F&style=for-the-badge)][githubsponsorsurl]
 
----
+##
 :wave: Welcome, geeky traveller!
 
 This is my fork of the ever-popular K8s-at-home chart repository. I take no credit for any of this, I just want it to live on post-deprecation! I'll be tidying it up and keeping it up-to-date where I can, and of course, contributions are welcome! - David
-
-----
-
-> The [Geek Cookbook][cookbookurl] is a collection of geek-friendly "recipes" to run popular applications on [Docker Swarm][dockerurl] or [Kubernetes][k8surl], in a progressive, easy-to-follow format.  ***Come and [join us][discordurl], fellow geeks!*** :neckbeard:
+##
+BTW, the [Geek Cookbook][cookbookurl] is a collection of geek-friendly "recipes" to run popular applications on [Docker Swarm][dockerurl] or [Kubernetes][k8surl], in a progressive, easy-to-follow format.  ***Come and [join us][discordurl], fellow geeks!*** :neckbeard:
 </div>
 
 # Simple, secure, and supported helm charts
