@@ -12,12 +12,10 @@
 <div align="center">
 
 [Funky Penguin's Geek Cookbook][cookbookurl]
-<h4 align='center'>
- presents...</h4>
+ presents...
 
 <h3 align='center'>Helm Charts: Simple, Secure, Supported</h3>
 
-[![docs](https://img.shields.io/badge/docs-rtfm-yellow?logo=gitbook&logoColor=white&style=for-the-badge)](https://geek-cookbook.funkypenguin.co.nz)
 [![Discord](https://img.shields.io/discord/396055506072109067?label=Discord&logo=discord&style=for-the-badge)][discordurl]
 [![Forums](https://img.shields.io/discourse/topics?label=Forums&logo=discourse&server=https%3A%2F%2Fforum.funkypenguin.co.nz&style=for-the-badge)][discourseurl]
 [![Subreddit](https://img.shields.io/reddit/subreddit-subscribers/funkypenguin?logo=reddit&style=for-the-badge&label=Subreddit)][subredditurl]
