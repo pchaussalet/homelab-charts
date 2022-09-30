@@ -1,6 +1,7 @@
+<h4 align='center'>
+Funky Penguin's Geek Cookbook presents...</h3>
 
-<h3 align='center'>Funky Penguin Helm Charts: Simple, Secure, Supported</h3>
-
+<h3 align='center'>Helm Charts: Simple, Secure, Supported</h3>
 
 [cookbookurl]: https://geek-cookbook.funkypenguin.co.nz
 [discourseurl]: https://forum.funkypenguin.co.nz
@@ -13,10 +14,8 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <div align="center">
 
-[![geek-cookbook](https://raw.githubusercontent.com/geek-cookbook/autopenguin/master/images/readme_header.png)][cookbookurl]
 
 [![docs](https://img.shields.io/badge/docs-rtfm-yellow?logo=gitbook&logoColor=white&style=for-the-badge)](https://geek-cookbook.funkypenguin.co.nz)
-
 [![Discord](https://img.shields.io/discord/396055506072109067?label=Discord&logo=discord&style=for-the-badge)][discordurl]
 [![Forums](https://img.shields.io/discourse/topics?label=Forums&logo=discourse&server=https%3A%2F%2Fforum.funkypenguin.co.nz&style=for-the-badge)][discourseurl]
 [![Mastodon](https://img.shields.io/mastodon/follow/108734728309100184?domain=https%3A%2F%2Fso.fnky.nz&label=Toot%21&logo=mastodon&style=for-the-badge)][mastodonurl]
