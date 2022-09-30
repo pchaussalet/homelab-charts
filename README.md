@@ -8,10 +8,12 @@
 [mastodonurl]: https://so.fnky.nz/funkypenguin
 [subredditurl]: https://reddit.com/r/funkypenguin
 [githubsponsorsurl]: https://github.com/sponsors/funkypenguin
+
 <!-- markdownlint-disable MD033 MD041 -->
 <div align="center">
 
-[Funky Penguin's Geek Cookbook][cookbookurl]
+**[Funky Penguin's Geek Cookbook][cookbookurl]**
+
  presents...
 
 ## Helm Charts: Simple, Secure, Supported
