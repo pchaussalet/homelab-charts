@@ -1,3 +1,4 @@
+
 [cookbookurl]: https://geek-cookbook.funkypenguin.co.nz
 [discourseurl]: https://forum.funkypenguin.co.nz
 [discordurl]: http://chat.funkypenguin.co.nz
@@ -9,10 +10,12 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <div align="center">
 
+[Funky Penguin's Geek Cookbook][cookbookurl]
 <h4 align='center'>
-[Funky Penguin's Geek Cookbook][cookbookurl] presents...</h4>
+ presents...</h4>
 
-<h1 align='center'>Helm Charts: Simple, Secure, Supported</h1>
+<h3 align='center'>Helm Charts</h3>
+<h3>Simple, Secure, Supported</h3>
 
 [![docs](https://img.shields.io/badge/docs-rtfm-yellow?logo=gitbook&logoColor=white&style=for-the-badge)](https://geek-cookbook.funkypenguin.co.nz)
 [![Discord](https://img.shields.io/discord/396055506072109067?label=Discord&logo=discord&style=for-the-badge)][discordurl]
