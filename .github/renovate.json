@@ -6,6 +6,7 @@
     "reviewersFromCodeOwners": true,
     "platform": "github",
     "repositories": ["geek-cookbook/charts"],
+    "includeForks": true,
     "pinDigests": true,    
     "suppressNotifications": ["prIgnoreNotification"],
     "prConcurrentLimit": 5,
