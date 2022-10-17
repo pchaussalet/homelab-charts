@@ -4,6 +4,9 @@
     "dependencyDashboardTitle": "Renovate Dashboard",
     "assigneesFromCodeOwners": true,
     "reviewersFromCodeOwners": true,
+    "platform": "github",
+    "repositories": ["geek-cookbook/charts"],
+    "pinDigests": true,    
     "suppressNotifications": ["prIgnoreNotification"],
     "prConcurrentLimit": 5,
     "helm-values": {
