@@ -18,7 +18,7 @@ on:
     branches:
       - main
     paths:
-      - ".github/renovate.json"
+      - ".github/renovate.json5"
       - ".github/renovate/**.json"
 
 env:
@@ -43,5 +43,5 @@ jobs:
       - name: Renovate
         uses: renovatebot/github-action@v32.216.0
         with:
-          configurationFile: "${{ env.RENOVATE_CONFIG_FILE }}"
+          configurationFile: ".github/renovate.json5"
           token: ${{ secrets.RENOVATE_TOKEN }}
