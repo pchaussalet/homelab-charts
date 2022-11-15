@@ -90,7 +90,7 @@ jobs:
         uses: helm/chart-releaser-action@v1.4.0
         with:
           charts_dir: charts/*
-          charts_repo_url: https://geek-cookbook.github.com/charts/
+          # charts_repo_url: https://geek-cookbook.github.com/charts/
         env:
           CR_TOKEN: "${{ secrets.RENOVATE_TOKEN }}"
           CR_SKIP_EXISTING: "true"
