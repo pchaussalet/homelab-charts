@@ -17,7 +17,7 @@ Sharry allows to share files with others in a simple way. It is a self-hosted we
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://library-charts.geek-cookbook.com | common | 4.5.2 |
+| https://library-charts.k8s-at-home.com | common | 4.5.2 |
 
 ## TL;DR
 

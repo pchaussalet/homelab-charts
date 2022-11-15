@@ -17,7 +17,7 @@ periodic cable modem data collection and save the results to InfluxDB
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://library-charts.geek-cookbook.com | common | 4.5.2 |
+| https://library-charts.k8s-at-home.com | common | 4.5.2 |
 
 ## TL;DR
 
