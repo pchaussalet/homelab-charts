@@ -9,7 +9,7 @@ on: # yamllint disable-line rule:truthy
 jobs:
   labels:
     name: Sync Labels
-    runs-on: self-hosted
+    runs-on: [ "self-hosted","Linux","X64" ]
     if: github.repository == 'geek-cookbook/charts'
     steps:
       - name: Generate Token
