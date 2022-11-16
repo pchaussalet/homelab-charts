@@ -41,18 +41,18 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 ```
 
 You can then run `helm search repo geek-cookbook` to see the charts.
 
 ## Support
 
-We have a few outlets for getting support with our projects:
+For support options, see:
 
 - Basic support requests start [here](https://geek-cookbook.funkypenguin.co.nz/support/).
 - Bugs or feature requests should be opened in an [issue](https://github.com/geek-cookbook/charts/issues/new/choose).
-- Questions or comments should be discussed in our [Discord](http://chat.funkypenguin.co.nz)
+- Questions or comments should be discussed in either our [Discord](http://chat.funkypenguin.co.nz) or [Forum](https://forum.funkypenguin.co.nz)
 
 ## Contributing
 

@@ -7,7 +7,7 @@ https://github.com/geek-cookbook/charts
 {{- end -}}
 
 {{- define "custom.helm.url" -}}
-https://geek-cookbook.com/charts/
+https://geek-cookbook.github.io/charts/
 {{- end -}}
 
 {{- define "custom.helm.path" -}}
@@ -92,7 +92,7 @@ helm install {{ template "chart.name" . }} {{ template "custom.helm.path" . }} -
 {{- define "custom.valuesSection" -}}
 ## Values
 
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/geek-cookbook/library-charts/tree/main/charts/stable/common)
+**Important**: When deploying an application Helm chart you can add more values from the common library chart [here](https://github.com/geek-cookbook/library-charts/tree/main/charts/stable/common)
 
 {{ template "chart.valuesTable" . }}
 {{- end -}}
@@ -100,10 +100,10 @@ helm install {{ template "chart.name" . }} {{ template "custom.helm.path" . }} -
 {{- define "custom.support" -}}
 ## Support
 
-- See the [Docs](https://docs.geek-cookbook.com/our-helm-charts/getting-started/)
-- Open an [issue](https://github.com/geek-cookbook/charts/issues/new/choose)
-- Ask a [question](https://github.com/geek-cookbook/organization/discussions)
-- Join our [Discord](http://chat.funkypenguin.co.nz) community
+- Basic support requests start [here](https://geek-cookbook.funkypenguin.co.nz/support/).
+- Bugs or feature requests should be opened in an [issue](https://github.com/geek-cookbook/charts/issues/new/choose).
+- Questions or comments should be discussed in either our [Discord](http://chat.funkypenguin.co.nz) or [Forum](https://forum.funkypenguin.co.nz)
+
 {{- end -}}
 
 {{- define "custom.changelog" -}}
