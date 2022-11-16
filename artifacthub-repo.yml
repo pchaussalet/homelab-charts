@@ -1,19 +1,7 @@
-repositoryID: 9b40a3b3-ed2a-405f-8919-3b824d4f661d
+repositoryID: f69bfea2-f449-441c-958b-45ad0346b09d
 owners:
-  - name: Jeff Billimek
-    email: jeff@billimek.com
-  - name: Ryan Holt
-    email: ryan@ryanholt.net
-  - name: Devin Buhl
-    email: devin.kray@gmail.com
-  - name: Bernd Schorgers
-    email: me@bjw-s.dev
-  - name: Nicholas St. Germain
-    email: nick@cajun.pro
+  - name: David Young
+    email: davidy@funkypenguin.co.nz
 ignore:
   # These charts are related to the common library
   - name: common
-  - name: common-test
-  - name: kah-common-chart
-  # This chart is for testing only at the moment
-  - name: plex-media-server
