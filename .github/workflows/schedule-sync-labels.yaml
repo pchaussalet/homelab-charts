@@ -12,12 +12,12 @@ jobs:
     runs-on: [ "self-hosted","Linux","X64" ]
     if: github.repository == 'geek-cookbook/charts'
     steps:
-      - name: Generate Token
-        uses: tibdex/github-app-token@v1
-        id: generate-token
-        with:
-          app_id: ${{ secrets.K8S_AT_HOME_APP_ID }}
-          private_key: ${{ secrets.K8S_AT_HOME_APP_PRIVATE_KEY }}
+      # - name: Generate Token
+      #   uses: tibdex/github-app-token@v1
+      #   id: generate-token
+      #   with:
+      #     app_id: ${{ secrets.K8S_AT_HOME_APP_ID }}
+      #     private_key: ${{ secrets.K8S_AT_HOME_APP_PRIVATE_KEY }}
 
       - name: Checkout
         uses: actions/checkout@v3
@@ -28,5 +28,5 @@ jobs:
         uses: EndBug/label-sync@v2
         with:
           config-file: .github/labels.yaml
-          token: "${{ steps.generate-token.outputs.token }}"
+          token: "${{ secrets.RENOVATE_TOKEN }}"
           delete-other-labels: true
