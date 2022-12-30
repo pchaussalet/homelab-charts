@@ -21,7 +21,7 @@ The Intel GPU plugin facilitates offloading the processing of computation intens
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install intel-gpu-plugin geek-cookbook/intel-gpu-plugin
 ```

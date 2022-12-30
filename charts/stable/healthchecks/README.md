@@ -22,7 +22,7 @@ Healthchecks is a cron job monitoring service. It listens for HTTP requests and 
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install healthchecks geek-cookbook/healthchecks
 ```

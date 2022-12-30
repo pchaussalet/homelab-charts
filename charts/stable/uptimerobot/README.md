@@ -21,7 +21,7 @@ A tool to get statistics from Uptime Robot and log it into InfluxDB
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install uptimerobot geek-cookbook/uptimerobot
 ```

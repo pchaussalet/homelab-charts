@@ -22,7 +22,7 @@ Ubiquiti Network's Unifi Controller
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install unifi geek-cookbook/unifi
 ```

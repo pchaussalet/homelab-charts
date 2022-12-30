@@ -26,7 +26,7 @@ The to-do app to organize your life
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install vikunja geek-cookbook/vikunja
 ```

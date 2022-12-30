@@ -22,7 +22,7 @@ periodic cable modem data collection and save the results to InfluxDB
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install modem-stats geek-cookbook/modem-stats
 ```

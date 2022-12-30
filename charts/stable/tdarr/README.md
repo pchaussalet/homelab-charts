@@ -23,7 +23,7 @@ Tdarr is a self hosted web-app for automating media library transcode/remux mana
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install tdarr geek-cookbook/tdarr
 ```

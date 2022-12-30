@@ -22,7 +22,7 @@ Prometheus Exporter for the official uptimerobot CLI
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install uptimerobot-prometheus geek-cookbook/uptimerobot-prometheus
 ```

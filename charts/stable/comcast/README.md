@@ -22,7 +22,7 @@ periodic comcast data usage checks and save the results to InfluxDB
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install comcast geek-cookbook/comcast
 ```

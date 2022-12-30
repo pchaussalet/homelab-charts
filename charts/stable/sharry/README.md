@@ -22,7 +22,7 @@ Sharry allows to share files with others in a simple way. It is a self-hosted we
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install sharry geek-cookbook/sharry
 ```
