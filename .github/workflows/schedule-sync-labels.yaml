@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          token: ${{ steps.generate-token.outputs.token }}
+          token: "${{ secrets.RENOVATE_TOKEN }}"
 
       - name: Sync Labels
         uses: EndBug/label-sync@v2
