@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: 2.1.1
 description: MLflow is an open source platform for managing the end-to-end machine learning lifecycle
 name: mlflow
-version: 0.0.1-pre-01
+version: 0.0.1
 kubeVersion: ">=1.16.0-0"
 keywords:
   - machine-learning
@@ -20,11 +20,11 @@ dependencies:
     repository: https://library-charts.k8s-at-home.com
     version: 4.5.2
   - name: postgresql
-    version: 11.6.12
+    version: 12.1.6
     repository: https://charts.bitnami.com/bitnami
     condition: postgresql.enabled
   - name: mariadb
-    version: 11.0.14
+    version: 11.4.2
     repository: https://charts.bitnami.com/bitnami
     condition: mariadb.enabled
 annotations:
