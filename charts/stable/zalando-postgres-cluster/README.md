@@ -21,7 +21,7 @@ Creates a postgres cluster using the Zalando Postgres operator and local storage
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install zalando-postgres-cluster geek-cookbook/zalando-postgres-cluster
 ```
@@ -135,7 +135,7 @@ A historical overview of changes can be found on [ArtifactHUB](https://artifacth
 
 ## Support
 
-- See the [Docs](https://docs.geek-cookbook.com/our-helm-charts/getting-started/)
+- See the [Docs](https://geek-cookbook.funkypenguin.co.nz/)
 - Open an [issue](https://github.com/geek-cookbook/charts/issues/new/choose)
 - Ask a [question](https://github.com/geek-cookbook/organization/discussions)
 - Join our [Discord](http://chat.funkypenguin.co.nz) community

@@ -21,7 +21,7 @@ A tool to get statistics from Uptime Robot and log it into InfluxDB
 ## TL;DR
 
 ```console
-helm repo add geek-cookbook https://geek-cookbook.com/charts/
+helm repo add geek-cookbook https://geek-cookbook.github.io/charts/
 helm repo update
 helm install uptimerobot geek-cookbook/uptimerobot
 ```
@@ -111,7 +111,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Support
 
-- See the [Docs](https://docs.geek-cookbook.com/our-helm-charts/getting-started/)
+- See the [Docs](https://geek-cookbook.funkypenguin.co.nz/)
 - Open an [issue](https://github.com/geek-cookbook/charts/issues/new/choose)
 - Ask a [question](https://github.com/geek-cookbook/organization/discussions)
 - Join our [Discord](http://chat.funkypenguin.co.nz) community
