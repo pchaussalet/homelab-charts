@@ -29,7 +29,8 @@ env:
 jobs:
   main:
     name: Renovate
-    runs-on: ubuntu-22.04
+    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    container: node:current-alpine # # necessary for running ARC with k8s jobs 
     steps:
       - name: Checkout
         uses: actions/checkout@v3

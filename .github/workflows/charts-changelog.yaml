@@ -18,6 +18,7 @@ jobs:
   validate-changelog:
     name: Validate changelog
     runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    container: node:current-alpine # # necessary for running ARC with k8s jobs 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -38,6 +39,7 @@ jobs:
   generate-changelog:
     name: Generate changelog annotations
     runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    container: node:current-alpine # # necessary for running ARC with k8s jobs 
     needs:
       - validate-changelog
     outputs:
