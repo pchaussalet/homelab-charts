@@ -25,14 +25,14 @@ jobs:
           # token: ${{ steps.generate-token.outputs.token }}
           fetch-depth: 0
 
-      - name: Install Kubernetes tools
-        uses: yokawasa/action-setup-kube-tools@v0.8.2
-        with:
-          setup-tools: |
-            helm
-            yq
-          helm: "${{ env.HELM_VERSION }}"
-          yq: "${{ env.YQ_VERSION }}"
+      # - name: Install Kubernetes tools
+      #   uses: yokawasa/action-setup-kube-tools@v0.8.2
+      #   with:
+      #     setup-tools: |
+      #       helm
+      #       yq
+      #     helm: "${{ env.HELM_VERSION }}"
+      #     yq: "${{ env.YQ_VERSION }}"
 
       - name: Install helm-docs
         run: |
