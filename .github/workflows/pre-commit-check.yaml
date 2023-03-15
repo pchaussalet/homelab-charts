@@ -10,7 +10,7 @@ on:
 jobs:
   pre-commit-check:
     name: Run pre-commit checks
-    runs-on: [ "self-hosted","Linux","X64" ]
+    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
     steps:
       - name: Checkout
         uses: actions/checkout@v3

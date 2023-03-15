@@ -16,7 +16,7 @@ env:
 
 jobs:
   release:
-    runs-on: [ "self-hosted","Linux","X64" ]
+    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -97,7 +97,7 @@ jobs:
 
   generate-summary:
     name: Auto-generate charts summary
-    runs-on: [ "self-hosted","Linux","X64" ]
+    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
     needs:
       - release
     steps:
