@@ -19,7 +19,7 @@ jobs:
   lint:
     name: Lint charts
     runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    container: node:current-alpine # # necessary for running ARC with k8s jobs 
+    container: ubuntu # # necessary for running ARC with k8s jobs 
     steps:
       - name: Checkout
         uses: actions/checkout@v3

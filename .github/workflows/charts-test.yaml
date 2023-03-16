@@ -20,7 +20,7 @@ jobs:
   unit-test:
     name: Run unit tests
     runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    container: node:current-alpine # # necessary for running ARC with k8s jobs 
+    container: ubuntu # # necessary for running ARC with k8s jobs 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -55,7 +55,7 @@ jobs:
   generate-install-matrix:
     name: Generate matrix for install
     runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    container: node:current-alpine # # necessary for running ARC with k8s jobs 
+    container: ubuntu # # necessary for running ARC with k8s jobs 
     outputs:
       matrix: |
         {
@@ -94,7 +94,7 @@ jobs:
       matrix: ${{ fromJson(needs.generate-install-matrix.outputs.matrix) }}
       fail-fast: false
     runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    container: node:current-alpine # # necessary for running ARC with k8s jobs 
+    container: ubuntu # # necessary for running ARC with k8s jobs 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -137,7 +137,7 @@ jobs:
       always()
     name: Install successful
     runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    container: node:current-alpine # # necessary for running ARC with k8s jobs 
+    container: ubuntu # # necessary for running ARC with k8s jobs 
     steps:
       - name: Check install matrix status
         if: ${{ (needs.generate-install-matrix.outputs.detected == 'true') && (needs.install-charts.result != 'success') }}
