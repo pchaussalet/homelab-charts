@@ -16,8 +16,9 @@ env:
 
 jobs:
   release:
-    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    container: node:current-alpine # # necessary for running ARC with k8s jobs  
+    runs-on: ubuntu-22.04
+    # runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    # container: node:current-alpine # # necessary for running ARC with k8s jobs  
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -25,14 +26,14 @@ jobs:
           # token: ${{ steps.generate-token.outputs.token }}
           fetch-depth: 0
 
-      # - name: Install Kubernetes tools
-      #   uses: yokawasa/action-setup-kube-tools@v0.8.2
-      #   with:
-      #     setup-tools: |
-      #       helm
-      #       yq
-      #     helm: "${{ env.HELM_VERSION }}"
-      #     yq: "${{ env.YQ_VERSION }}"
+      - name: Install Kubernetes tools
+        uses: yokawasa/action-setup-kube-tools@v0.8.2
+        with:
+          setup-tools: |
+            helm
+            yq
+          helm: "${{ env.HELM_VERSION }}"
+          yq: "${{ env.YQ_VERSION }}"
 
       - name: Install helm-docs
         run: |
