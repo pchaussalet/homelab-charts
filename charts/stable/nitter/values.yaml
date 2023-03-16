@@ -89,8 +89,8 @@ persistence:
 
 redis:
   enabled: true
-    architecture: standalone
-    master:
-      kind: Deployment
-      persistence:
-        enabled: false
+  architecture: standalone
+  master:
+    kind: Deployment
+    persistence:
+      enabled: false
