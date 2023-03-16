@@ -24,7 +24,7 @@ jobs:
     name: Collect PR metadata
     runs-on: ubuntu-22.04
     # runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    # container: node:current-alpine # # necessary for running ARC with k8s jobs 
+    # container: ubuntu # # necessary for running ARC with k8s jobs 
     outputs:
       isRenovatePR: ${{ startsWith(steps.branch-name.outputs.current_branch, 'renovate/') }}
       isFork: ${{ github.event.pull_request.head.repo.full_name != github.repository }}
@@ -50,7 +50,7 @@ jobs:
     name: Collect PR changes
     runs-on: ubuntu-22.04
     # runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    # container: node:current-alpine # # necessary for running ARC with k8s jobs 
+    # container: ubuntu # # necessary for running ARC with k8s jobs 
     outputs:
       addedOrModified: ${{ steps.collect-changes.outputs.changesDetected }}
       addedOrModifiedFiles: ${{ steps.collect-changes.outputs.addedOrModifiedFiles }}
