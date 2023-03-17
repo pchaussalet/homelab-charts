@@ -10,7 +10,7 @@ jobs:
   labels:
     name: Sync Labels
     runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    container: ubuntu # # necessary for running ARC with k8s jobs 
+    container: funkypenguin/chart-tools # # necessary for running ARC with k8s jobs 
     if: github.repository == 'geek-cookbook/charts'
     steps:
       # - name: Generate Token

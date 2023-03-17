@@ -24,15 +24,6 @@ jobs:
           # token: ${{ steps.generate-token.outputs.token }}
           fetch-depth: 0
 
-      - name: Install Kubernetes tools
-        uses: yokawasa/action-setup-kube-tools@v0.8.2
-        with:
-          setup-tools: |
-            helm
-            yq
-          helm: "${{ env.HELM_VERSION }}"
-          yq: "${{ env.YQ_VERSION }}"
-
       - name: Install helm-docs
         run: |
           wget -O /tmp/helm-docs.deb  https://github.com/k8s-at-home/helm-docs/releases/download/v0.1.1/helm-docs_0.1.1_Linux_x86_64.deb
@@ -98,7 +89,7 @@ jobs:
   generate-summary:
     name: Auto-generate charts summary
     runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
-    container: ubuntu # # necessary for running ARC with k8s jobs 
+    container: funkypenguin/chart-tools # # necessary for running ARC with k8s jobs 
     needs:
       - release
     steps:
@@ -109,15 +100,6 @@ jobs:
           # token: ${{ steps.generate-token.outputs.token }}
           ref: main
           fetch-depth: 0
-
-      - name: Install yq
-        uses: yokawasa/action-setup-kube-tools@v0.8.2
-        with:
-          setup-tools: |
-            helm
-            yq
-          helm: "${{ env.HELM_VERSION }}"
-          yq: "${{ env.YQ_VERSION }}"
 
       - name: Run script
         run: |
