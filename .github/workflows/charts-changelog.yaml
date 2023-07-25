@@ -17,7 +17,7 @@ on:
 jobs:
   validate-changelog:
     name: Validate changelog
-    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    runs-on: ubuntu-latest
     container: funkypenguin/chart-tools # # necessary for running ARC with k8s jobs 
     steps:
       - name: Checkout
@@ -38,7 +38,7 @@ jobs:
 
   generate-changelog:
     name: Generate changelog annotations
-    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    runs-on: ubuntu-latest
     container: funkypenguin/chart-tools # # necessary for running ARC with k8s jobs 
     needs:
       - validate-changelog

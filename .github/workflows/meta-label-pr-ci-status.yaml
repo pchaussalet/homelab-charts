@@ -11,7 +11,7 @@ on:
 jobs:
   label-ci-status:
     name: Label CI status
-    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    runs-on: ubuntu-latest
     container: funkypenguin/chart-tools # # necessary for running ARC with k8s jobs  
     steps:
       - name: Generate Token

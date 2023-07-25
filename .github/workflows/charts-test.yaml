@@ -53,7 +53,7 @@ jobs:
 
   generate-install-matrix:
     name: Generate matrix for install
-    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    runs-on: ubuntu-latest
     container: funkypenguin/chart-tools # # necessary for running ARC with k8s jobs 
     outputs:
       matrix: |
@@ -92,7 +92,7 @@ jobs:
     strategy:
       matrix: ${{ fromJson(needs.generate-install-matrix.outputs.matrix) }}
       fail-fast: false
-    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    runs-on: ubuntu-latest
     container: funkypenguin/chart-tools # # necessary for running ARC with k8s jobs 
     steps:
       - name: Checkout
@@ -135,7 +135,7 @@ jobs:
     if: |
       always()
     name: Install successful
-    runs-on: [ "self-hosted","geek-cookbook-funkypenguin-co-nz" ]
+    runs-on: ubuntu-latest
     container: funkypenguin/chart-tools # # necessary for running ARC with k8s jobs 
     steps:
       - name: Check install matrix status
