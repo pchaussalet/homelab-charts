@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: v7.1.68
+appVersion: v7.4.162
 description: Ubiquiti Network's Unifi Controller
 name: unifi
-version: 5.1.2
+version: 5.1.3
 keywords:
   - ubiquiti
   - unifi
@@ -27,4 +27,4 @@ dependencies:
 annotations:
   artifacthub.io/changes: |-
     - kind: changed
-      description: Upgraded `common` chart dependency to version 4.5.2
+      description: Updated unifi to v7.4.162
