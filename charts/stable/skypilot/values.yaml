@@ -128,8 +128,17 @@ gcpCredentials:
 
 # Set securityContext for the api pod (defaults to empty but allows users to override)
 securityContext:
-    runAsNonRoot: true
+  capabilities:
+    drop:
+    - ALL  
+  allowPrivilegeEscalation: false
 
 # Set securityContext for the api container inside the api pod (defaults to empty but allows users to override)
 podSecurityContext: 
-  runAsNonRoot: true
+  capabilities:
+    drop:
+    - ALL  
+  allowPrivilegeEscalation: false
+
+# Set the runtime class
+runtimeClassName: 
