@@ -127,7 +127,9 @@ gcpCredentials:
   projectId: null
 
 # Set securityContext for the api pod (defaults to empty but allows users to override)
-securityContext: {}
+securityContext:
+    runAsNonRoot: true
 
 # Set securityContext for the api container inside the api pod (defaults to empty but allows users to override)
-podSecurityContext: {}
+podSecurityContext: 
+  runAsNonRoot: true
