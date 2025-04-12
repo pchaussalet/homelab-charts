@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: version-v5.21.0
+appVersion: 8.2.100
 description: Calibre is a powerful and easy to use e-book manager.
 name: calibre
-version: 5.4.2
+version: 5.5.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - calibre
