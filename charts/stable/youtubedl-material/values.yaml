@@ -9,7 +9,7 @@ image:
   # -- image repository
   repository: tzahi12345/youtubedl-material
   # -- image tag
-  tag: "4.2"
+  tag:
   # -- image pull policy
   pullPolicy: IfNotPresent
 
